@@ -28,6 +28,7 @@ deb https://mirrors.aliyun.com/kubernetes/apt kubernetes-xenial main
 
 
 
+
 谷歌gpg下载不下来，用下面方法
 
 curl -O https://packages.cloud.google.com/apt/doc/apt-key.gpg
