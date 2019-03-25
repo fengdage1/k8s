@@ -25,3 +25,11 @@ deb http://mirrors.aliyun.com/ubuntu/ xenial-updates multiverse
 deb http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
 
 deb https://mirrors.aliyun.com/kubernetes/apt kubernetes-xenial main
+
+
+
+谷歌gpg下载不下来，用下面方法
+
+curl -O https://packages.cloud.google.com/apt/doc/apt-key.gpg
+
+apt-key add apt-key.gpg
